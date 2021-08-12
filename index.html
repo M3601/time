@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="clock.svg" type="image/svg+xml" />
+    <meta name="description" content="a simple and minimalist time watcher" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#222222" />
+  </head>
+  <body>
+    <header></header>
+    <div id="modal">
+      <div class="input-group">
+        <label for="input_hours">Hours</label>
+        <input type="text" id="input_hours" tabindex="0" />
+      </div>
+      <div class="input-group">
+        <label for="input_minutes">Minutes</label>
+        <input type="text" id="input_minutes" tabindex="0" />
+      </div>
+      <div class="input-group">
+        <label for="input_seconds">Seconds</label>
+        <input type="text" id="input_seconds" tabindex="0" />
+      </div>
+      <button id="submit">Create</button>
+    </div>
+    <main>
+      <div id="hours"></div>
+      <div id="minutes"></div>
+      <div id="seconds"></div>
+    </main>
+    <footer>
+      <div class="timer add">
+        <svg
+          enable-background="new 0 0 512 512"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m501.333 245.333h-234.666v-234.666c0-5.891-4.776-10.667-10.667-10.667s-10.667 4.776-10.667 10.667v234.667h-234.666c-5.891-.001-10.667 4.775-10.667 10.666s4.776 10.667 10.667 10.667h234.667v234.667c0 5.891 4.776 10.667 10.667 10.667s10.667-4.776 10.667-10.667v-234.667h234.667c5.891 0 10.667-4.776 10.667-10.667-.002-5.891-4.778-10.667-10.669-10.667z"
+          />
+        </svg>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

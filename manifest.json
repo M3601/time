@@ -1,0 +1,16 @@
+{
+  "name": "Time",
+  "short_name": "time",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#222222",
+  "description": "a simple and minimalist time watcher",
+  "theme_color": "#e4e4e4",
+  "icons": [
+    {
+      "src": "./clock.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
