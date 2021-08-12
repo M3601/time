@@ -1,4 +1,7 @@
 # Time
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ade5229b-56e6-4cdc-a7d4-ac7e1d983cb0/deploy-status)](https://app.netlify.com/sites/cranky-pike-860cda/deploys)
+
 A minimalist time watcher
 
 <img align="right" src="https://github.com/M3601/time/raw/master/clock.png" height="150px">
